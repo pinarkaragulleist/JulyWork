@@ -8,3 +8,6 @@ def hello():
     print(df)
     return(df)
 
+@hug.get("/bye")
+def bye():
+    return ("good bye")
